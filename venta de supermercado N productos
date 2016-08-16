@@ -1,0 +1,29 @@
+// venta.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	int N, cant, i=1;
+	float precio,z,a=0;
+	cout<<"ingrese cuantos tipos de productos: ";
+	cin>> N;
+	do{
+		cout<<"ingrese la cantidad del siguiente producto: ";
+		cin>> cant;
+		cout<<"ingrese el precio: ";
+		cin>> precio;
+		z= cant*precio;
+		a= a + z;
+		i=i+1;
+
+	}while(i<=N);
+
+	cout<<"total a pagar:"<<a<<endl;
+	getch();
+}
