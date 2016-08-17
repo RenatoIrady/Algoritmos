@@ -1,0 +1,20 @@
+// salarioNeto.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{ int N,i; float IVA=0.12, AFP=;
+  double s,a=3610,b=0;
+  cout<<"Ingrese el numero de empleados: ";
+  cin>> N;
+  for(i=0;i<N;i++)
+  { 
+	  cout<<"ingrese el salario del empleado: ";
+      cin>>s;
+	  if(s<a)
+	  { b=b+ S*
